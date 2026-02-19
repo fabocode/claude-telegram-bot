@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Config (contains secrets)
+config.json
+
+# Runtime data
+sessions/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

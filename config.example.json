@@ -1,0 +1,17 @@
+{
+  "telegram": {
+    "token": "TU_BOT_TOKEN_AQUI",
+    "chat_id": "TU_CHAT_ID_AQUI"
+  },
+  "projects": [
+    { "name": "firmware", "path": "/home/fabian/projects/firmware-esp32" },
+    { "name": "klika",    "path": "/home/fabian/work/klika" },
+    { "name": "personal", "path": "/home/fabian/personal" }
+  ],
+  "approval_tools": ["Bash", "Write", "Edit", "MultiEdit"],
+  "output_stream": {
+    "interval_seconds": 3,
+    "max_idle_checks": 10,
+    "max_chars": 2000
+  }
+}

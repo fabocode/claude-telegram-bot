@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    "Notification": [{ "matcher": "", "hooks": [{ "type": "command", "command": "CLAUDE_HOOK_TYPE=Notification ~/.claude-telegram/.venv/bin/python ~/claude-telegram/hooks/hook.py" }] }],
+    "PreToolUse":   [{ "matcher": "Bash|Write|Edit|MultiEdit", "hooks": [{ "type": "command", "command": "CLAUDE_HOOK_TYPE=PreToolUse ~/.claude-telegram/.venv/bin/python ~/claude-telegram/hooks/hook.py" }] }],
+    "Stop":         [{ "matcher": "", "hooks": [{ "type": "command", "command": "CLAUDE_HOOK_TYPE=Stop ~/.claude-telegram/.venv/bin/python ~/claude-telegram/hooks/hook.py" }] }]
+  }
+}
