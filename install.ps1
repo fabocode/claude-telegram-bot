@@ -41,7 +41,7 @@ $configSrc = "$repoDir\config.example.json"
 if (-not (Test-Path $configDst)) {
     Copy-Item $configSrc $configDst
     Write-Host "Copied config.example.json -> $configDst" -ForegroundColor Green
-    Write-Host "  >>> Edit $configDst and set your token, chat_id, and project paths." -ForegroundColor Yellow
+    Write-Host "  ** Edit $configDst and set your token, chat_id, and project paths." -ForegroundColor Yellow
 } else {
     Write-Host "Config already exists at $configDst — not overwritten." -ForegroundColor Green
 }
