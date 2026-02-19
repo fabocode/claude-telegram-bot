@@ -7,7 +7,7 @@ $appDir  = "$env:USERPROFILE\.claude-telegram"
 $venvDir = "$appDir\.venv"
 $repoDir = $PSScriptRoot
 
-Write-Host "=== Claude Telegram Bridge — Windows Setup ===" -ForegroundColor Cyan
+Write-Host "=== Claude Telegram Bridge - Windows Setup ===" -ForegroundColor Cyan
 
 # 1. Check Python
 if (-not (Get-Command python -ErrorAction SilentlyContinue)) {
@@ -43,7 +43,7 @@ if (-not (Test-Path $configDst)) {
     Write-Host "Copied config.example.json -> $configDst" -ForegroundColor Green
     Write-Host "  ** Edit $configDst and set your token, chat_id, and project paths." -ForegroundColor Yellow
 } else {
-    Write-Host "Config already exists at $configDst — not overwritten." -ForegroundColor Green
+    Write-Host "Config already exists at $configDst - not overwritten." -ForegroundColor Green
 }
 
 Write-Host ""
