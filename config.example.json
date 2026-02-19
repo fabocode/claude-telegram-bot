@@ -1,12 +1,12 @@
 {
   "telegram": {
-    "token": "TU_BOT_TOKEN_AQUI",
-    "chat_id": "TU_CHAT_ID_AQUI"
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "chat_id": "YOUR_CHAT_ID_HERE"
   },
   "projects": [
-    { "name": "firmware", "path": "/home/fabian/projects/firmware-esp32" },
-    { "name": "klika",    "path": "/home/fabian/work/klika" },
-    { "name": "personal", "path": "/home/fabian/personal" }
+    { "name": "firmware", "path": "C:/Users/fabian/projects/firmware-esp32" },
+    { "name": "klika",    "path": "C:/Users/fabian/work/klika" },
+    { "name": "personal", "path": "C:/Users/fabian/personal" }
   ],
   "approval_tools": ["Bash", "Write", "Edit", "MultiEdit"],
   "output_stream": {

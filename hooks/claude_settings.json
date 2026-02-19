@@ -1,7 +1,7 @@
 {
   "hooks": {
-    "Notification": [{ "matcher": "", "hooks": [{ "type": "command", "command": "CLAUDE_HOOK_TYPE=Notification ~/.claude-telegram/.venv/bin/python ~/claude-telegram/hooks/hook.py" }] }],
-    "PreToolUse":   [{ "matcher": "Bash|Write|Edit|MultiEdit", "hooks": [{ "type": "command", "command": "CLAUDE_HOOK_TYPE=PreToolUse ~/.claude-telegram/.venv/bin/python ~/claude-telegram/hooks/hook.py" }] }],
-    "Stop":         [{ "matcher": "", "hooks": [{ "type": "command", "command": "CLAUDE_HOOK_TYPE=Stop ~/.claude-telegram/.venv/bin/python ~/claude-telegram/hooks/hook.py" }] }]
+    "Notification": [{ "matcher": "", "hooks": [{ "type": "command", "command": "%USERPROFILE%\\.claude-telegram\\.venv\\Scripts\\python.exe %USERPROFILE%\\claude-telegram\\hooks\\hook.py Notification" }] }],
+    "PreToolUse":   [{ "matcher": "Bash|Write|Edit|MultiEdit", "hooks": [{ "type": "command", "command": "%USERPROFILE%\\.claude-telegram\\.venv\\Scripts\\python.exe %USERPROFILE%\\claude-telegram\\hooks\\hook.py PreToolUse" }] }],
+    "Stop":         [{ "matcher": "", "hooks": [{ "type": "command", "command": "%USERPROFILE%\\.claude-telegram\\.venv\\Scripts\\python.exe %USERPROFILE%\\claude-telegram\\hooks\\hook.py Stop" }] }]
   }
 }
